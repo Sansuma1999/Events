@@ -32,19 +32,23 @@
         }
         .profile {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
             margin-top: 10px;
-            padding-left: 20px;
         }
         .profile img {
-            width: 40px;
-            height: 40px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
         }
-        .verified {
-            height: 20px; /* Same size as text */
-            width: 20px;
+        .username {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        .username span {
+            font-size: 20px;
         }
         .events {
             margin-top: 30px;
@@ -105,8 +109,12 @@
     <div class="header">event organisers</div>
 
     <div class="profile">
-        <img src="profile.png" alt="User profile">
-        <span>User name <img src="verr.png" class="verified" alt="Verified"></span>
+        <img src="jw.jpg" alt="User profile">
+        <div class="username">
+            <span>Jwngshar Basumatary</span>
+            <img src="social-media.png"HTML5 Icon" style="width:20px;height:20px;">
+
+        </div>
     </div>
 
     <div class="events">
@@ -117,7 +125,6 @@
 
     <div class="footer">
         <div class="mountain">
-            <div class="snow"></div>
         </div>
         <div class="sun"></div>
     </div>
