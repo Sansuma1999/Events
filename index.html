@@ -117,6 +117,12 @@
     </div>
 
     <div class="events">
+        <button class="event-btn event1" onclick="window.location.href='event1.html'">Events 1</button>
+        <script>
+            document.querySelector('.event1').addEventListener('click', function() {
+                window.location.href = 'event1.html';
+            });
+        </script>        
         <button class="event-btn event1">Events 1</button>
         <button class="event-btn event2">Events 2</button>
         <button class="event-btn event3">Events 3</button>
